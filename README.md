@@ -14,7 +14,7 @@ You can run the app with:
 
 Once it is running, you can access it in a browser at [http://localhost:3000](http://localhost:3000)
 
-## One Example CI requrement
+## One Example CI requirement
 say team has asked you to configure a Jenkins project to build the this app. The source code for the application is hosted in the GitHub repository at https://github.com/islammuntashir/full-ci-cd-implementation. The app already has build automation set up using gradle wrapper, and can be built with ./gradlew build. The team wants Jenkins to execute this automated build every time changes are pushed to the GitHub repo.
 
 You will need to:
