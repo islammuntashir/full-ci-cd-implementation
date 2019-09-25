@@ -34,4 +34,4 @@ You will need to:
 6. Provide Github url to github project
 7. Select git in sourcecode management and provide Repository URL. Donot need to provide Credential. As already you given it globally
 8. Checkout GitHub hook trigger for GITScm polling
-9. Add build steps and select invoked gradle script and then select gradle wrapper and give task name "build" as primary build is Build. then set post build action to archive Artifactto dist/schedule.zip
+9. Add build steps and select invoked gradle script and then select gradle wrapper and give task name "build" as primary build is Build. then set post build action to archive Artifactto dist/schedule.zip.
