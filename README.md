@@ -44,3 +44,10 @@ A few notes about the this server setup:
 4. The Publish Over SSH plugin is already installed on the Jenkins server.
 6. The Jenkins server listens on port 8080. Train Schedule, once it is deployed, will listen on port 3000.
 
+## Solutions
+1. First configure publish over ssh with Name, Ip, remote directory. Name is Important because it refers in step of Pipeline
+2. The create creadentials for deployment the artifact from creadential management and here ID is important see pipeline. We use weblogin_jenkins
+3. Then create multi branch pipeline and configure github repo with Username and api key
+4. then write the Jenkinsfile
+
+
